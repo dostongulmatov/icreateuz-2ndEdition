@@ -1,0 +1,294 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.icreate-nav {
+  padding: 2% 5%;
+}
+
+.icreate-nav .icreate-brand {
+  font-size: 1.8rem;
+  font-weight: 900;
+  margin-top: -8px;
+  margin-right: 7%;
+}
+
+.icreate-nav .nav-item {
+  margin: 0 20px;
+}
+
+.icreate-nav1 {
+  padding: 2% 5%;
+  background-color: black !important;
+}
+
+.icreate-nav1 .icreate-brand {
+  font-size: 1.8rem;
+  font-weight: 900;
+  margin-top: -8px;
+  margin-right: 7%;
+  color: white;
+}
+
+.icreate-nav1 .nav-item {
+  margin: 0 20px;
+  color: white;
+}
+
+.icreate-nav1 .nav-link {
+  color: white;
+}
+
+.content-part {
+  padding: 2% 5%;
+  line-height: 2;
+}
+
+.content-part .content-heading-container {
+  margin-top: 8%;
+}
+
+.content-part .content-heading {
+  font-weight: 800;
+}
+
+.content-part .content-p {
+  margin-bottom: 40px;
+}
+
+.content-part .content-btn {
+  margin-right: 20px;
+}
+
+.content-part1 {
+  padding: 2% 5%;
+  line-height: 2;
+  background-color: black;
+  color: white;
+}
+
+.content-part1 .content-heading-container {
+  margin-top: 8%;
+}
+
+.content-part1 .content-heading {
+  font-weight: 800;
+}
+
+.content-part1 .content-p {
+  margin-bottom: 40px;
+}
+
+.content-part1 .content-btn {
+  margin-right: 20px;
+}
+
+.carousel-btn-next {
+  width: 30px !important;
+  background-color: black;
+  height: 10%;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.carousel-btn-previous {
+  width: 30px !important;
+  height: 10%;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+#our-services {
+  text-align: center;
+  background-color: #F3F4F7;
+  padding: 6% 5%;
+}
+
+#our-services .our-services-question {
+  color: blue;
+}
+
+#our-services .our-services-heading {
+  font-weight: bold;
+}
+
+#our-services .cards-container {
+  margin: 5% auto;
+  text-align: center;
+}
+
+#our-services .cards-container .our-services-container {
+  background-color: white;
+  margin: auto 20px;
+  padding: 3%;
+}
+
+#our-services .cards-container .our-services-container .our-services-img {
+  width: 100px;
+}
+
+#our-services .cards-container .cards-heading {
+  margin-top: 15px;
+  color: blue;
+  font-weight: bold;
+}
+
+#our-services .cards-container .pair-cards {
+  background-color: black;
+  color: white;
+}
+
+.carousel-container {
+  padding: 5%;
+  text-align: center;
+}
+
+.carousel-container .question-p {
+  color: blue;
+}
+
+.carousel-container .project-container {
+  margin-top: 5%;
+}
+
+.carousel-container .project-container * {
+  text-align: left;
+}
+
+.carousel-container .project-container img {
+  width: 300px;
+  height: 300px;
+  text-align: right;
+  border-radius: 50%;
+}
+
+.carousel-container .project-container img:hover {
+  opacity: 50%;
+}
+
+.carousel-container .project-container .p-inside-img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 16px;
+  right: 0;
+  height: 100%;
+  width: 300px;
+  border-radius: 50%;
+  opacity: 0;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.carousel-container .project-container .p-inside-img p {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.carousel-container .project-container .p-inside-img:hover {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-container .project-container .project-link {
+  margin-right: 20px;
+}
+
+.carousel-container .project-description-container {
+  margin-top: 3%;
+}
+
+.our-skills-container {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 5%;
+}
+
+.our-skills-container .our-skills {
+  margin: 50px;
+}
+
+#Team-page {
+  background-color: #F3F4F7;
+  padding: 5%;
+  text-align: center;
+  color: black;
+}
+
+#Team-page .question-p {
+  color: blue;
+}
+
+#Team-page .team-page-heading {
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+#Team-page .team-img {
+  margin-bottom: 20px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+#Team-page .team-member-container {
+  font-weight: 100;
+  margin-right: 5%;
+}
+
+#Team-page .team-member-container .team-member-name {
+  font-weight: 200;
+}
+
+#Team-page .team-member-container .developer-type {
+  color: blue;
+}
+
+#Team-page .choose-us {
+  margin-top: 3%;
+  padding: 2% 20%;
+  border-top: 1px solid black;
+}
+
+#icreate-footer {
+  padding: 5%;
+  line-height: 2;
+}
+
+.need-help-container {
+  text-align: center;
+  padding: 3%;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+}
+
+.social-icons {
+  margin-right: 5px;
+}
+/*# sourceMappingURL=style.css.map */
