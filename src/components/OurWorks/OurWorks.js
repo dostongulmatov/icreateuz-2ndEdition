@@ -3,7 +3,7 @@ import Carousel from './Carousel'
 import Technologies from './Technolochies'
 const OurWorks = () => {
   return (
-    <div>
+    <div id="our-works">
       <div>
         <Carousel />
         <Technologies />

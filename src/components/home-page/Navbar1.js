@@ -20,7 +20,7 @@ const Navbar = () => {
               <a class="nav-link" href="#">Blog</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link" href="#">Portfolio</a>
+              <a class="nav-link" href="#our-works">Portfolio</a>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
@@ -40,7 +40,7 @@ const Navbar = () => {
               </div>
             </li>
             <li class="nav-item">
-              <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">LOG IN</button>
+              <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">CONTACT US</button>
             </li>
           </ul>
           </form>
